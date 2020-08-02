@@ -1,0 +1,30 @@
+.fancy-btn {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+    border: 0.5px black;
+    margin: 10px;
+  }
+  
+  .fancy-btn-hover {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+    border: 0.5px #61dafb;
+    background-color: #61dafb;
+    color: white;
+    margin: 10px;
+  }
+
+  .small-text {
+    margin-top: 10px;
+    font-size: small;
+  }
