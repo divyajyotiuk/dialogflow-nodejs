@@ -44,7 +44,8 @@ async function init(code, oauth2client, projectId = '') {  //update your project
     // Create a new session
 
     const sessionClient = new dialogflow.SessionsClient({ auth: oauth2client});
-    const sessionPath = sessionClient.projectAgentSessionPath(projectId, sessionId);
+    //const sessionPath = sessionClient.projectAgentSessionPath(projectId, sessionId);
+    const sessionPath = `projects/${projectId}/agent/sessions/${sessionId}`;
 
     // The text query request.
     const request = {
